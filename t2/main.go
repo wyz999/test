@@ -35,7 +35,6 @@ func (p *potato) getName() string {
 func testRecover() int {
 	defer func() {
 		fmt.Println(recover())
-
 	}()
 	b:=1
 	c:=0
